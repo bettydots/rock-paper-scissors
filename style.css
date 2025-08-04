@@ -1,0 +1,11 @@
+:root {
+	--clr-dark: black;
+	--clr-light: white;
+	--clr-accent: rebeccapurple;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
