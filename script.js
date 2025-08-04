@@ -16,8 +16,6 @@ function initGame() {
 }
 
 function playGame(humanChoice, computerChoice) {
-	// let roundCount = 5
-	// for (let i = roundCount; i > 0; i--) {
 	if (humanChoice == computerChoice) {
 		calcScore("")
 		return `We both picked ${computerChoice}. It's a draw`
